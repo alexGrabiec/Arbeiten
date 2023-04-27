@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.uni_marburg.iliasapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IliasApp">
+        <activity
+            android:name=".Mensa"
+            android:exported="false" />
+        <activity
+            android:name=".Kalender"
+            android:exported="false" />
+        <activity
+            android:name=".RaumDetails"
+            android:exported="false"
+            android:label="@string/raum_details" />
+        <activity
+            android:name=".Raumsuche"
+            android:exported="false"
+            android:label="@string/raum_suche" />
+        <activity
+            android:name=".VeranstaltungsDetails"
+            android:exported="false"
+            android:label="@string/veranstaltungs_details" />
+        <activity
+            android:name=".MeineVeranstaltungen"
+            android:exported="false"
+            android:label="@string/meine_veranstaltungen" />
+        <activity
+            android:name=".data.HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/module_search" />
+        <activity
+            android:name=".login.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

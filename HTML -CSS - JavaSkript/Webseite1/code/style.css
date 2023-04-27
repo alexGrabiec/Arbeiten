@@ -1,0 +1,1472 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/*Menübar/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.container_Menü{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 90px;
+    grid-template-columns:  8fr 0.5fr 1.2fr 1.2fr 1.2fr 1.5fr 0.8fr 1.2fr;
+    color:rgb(0 , 86, 92); 
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    align-items: center;
+    justify-items: center;
+    letter-spacing: 0.05rem;
+    position: fixed;
+    background-color: white;
+    box-shadow:1px 1px 3px rgb(160, 159, 159); 
+    z-index: 6;
+}
+#mehr{
+    display: none;
+}
+
+
+.Menü_Kontakt_Button{
+    align-items: center;
+    background-color: rgb(249, 18, 106);
+    color: white;
+    width: 170px;
+    height: 40px;
+    margin-left: 20%;
+    border-radius: 180px;
+    display: flex; 
+    justify-content: center;
+}
+#Kontakt{
+    height: 50px;
+    font-size: 15px;
+    width: 180px;
+}
+#Leistung, #Referenzen, #Über_uns, #Kontakt2{
+    text-decoration:none;
+}
+
+
+
+#Leistung,#Referenzen, #Über_uns:link{color: rgb(249, 18, 106);}
+#Leistung,#Referenzen, #Über_uns:visited{color: rgb(249, 18, 106);}
+#Leistung,#Referenzen, #Über_uns:link{color: rgb(249, 18, 106);}
+#Leistung,#Referenzen, #Über_uns:active{color: rgb(249, 18, 106);}
+#Kontakt2:active{color: white;}
+#Kontakt2:link{color: white;}
+#Kontakt2:visited{color: white;}
+#Kontakt2:link{color: white;}
+
+#Leistung:hover {color: rgb(175, 25, 83);}
+#Referenzen:hover {color: rgb(175, 25, 83);}
+#Über_uns:hover {color: rgb(175, 25, 83);}
+#Blog:hover {color: rgb(175, 25, 83);}
+
+#Leistung2,#Referenzen2, #Über_uns2, #Kontakt3{
+    text-decoration:none;
+}
+
+
+#Leistung2,#Referenzen2, #Über_uns2, #Kontakt3:link{color:white;}
+#Leistung2,#Referenzen2, #Über_uns2, #Kontakt3:visited{color: white;}
+#Leistung2,#Referenzen2, #Über_uns2, #Kontakt3:link{color: white;}
+#Leistung2,#Referenzen2, #Über_uns2, #Kontakt3:active{color: white;}
+
+#Leistung2:hover {color: rgb(175, 25, 83);}
+#Referenzen2:hover {color: rgb(175, 25, 83);}
+#Über_uns2:hover {color: rgb(175, 25, 83);}
+#Blog2:hover {color: rgb(175, 25, 83);}
+#Kontakt:hover {background-color: rgb(175, 25, 83);}
+
+.Mehr_dropdown1{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Mehr_dropdown2{
+    position: fixed;
+    background-color: rgb(242, 246, 247);
+    width: 55%;
+    height: 370px;
+    box-shadow:0px 0px 6px rgb(160, 159, 159); 
+    z-index: 4;
+    display: none;
+}
+
+.dropdown_überschrift{
+    padding-top: 130px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    font-family: sans-serif;
+    color: rgb(40, 46, 62);
+    font-size: 30px;
+}
+.dropdown_text{
+    padding-left: 70px;
+    font-family: sans-serif;
+    color: rgb(40, 46, 62);
+    line-height: 30px;
+    font-size: 20px;
+}
+#dropdown_strich{
+    padding: 0 60px 10px;
+}
+.dropdown_button{
+    display: none;
+}
+.dropdown_text:hover{
+    color: rgb(141, 141, 141);
+}
+#xXX{
+    text-decoration:none;
+}
+.platzhalter_Menü{
+    display: none;
+}
+#Close1{
+    background-color: rgb(249, 18, 106);
+    border: 3px solid rgb(249, 18, 106);
+    border-radius: 180px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 130px;
+   }
+#Close2{
+    padding-top: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+   }
+#Close1:hover{
+    background-color: white;
+}   
+#Close2:hover{
+    color: rgb(249, 18, 106);
+}
+
+
+/*Startbildschirm/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container_Startbildschirm{
+    display: grid;
+    grid-template-rows: 80vh;
+    grid-template-columns: 100%;
+    background-image: url("./Bilder/startbildschirm2.PNG");
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    justify-items: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family:  sans-serif;
+    background-color: rgb(242, 246, 247);
+    
+}
+.Startbildschirm_Unterüberschrift{
+    color:rgb(40 , 46, 62); 
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(242, 246, 247);
+}
+.Startbildschirm_Unterüberschrift_Inhalt{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding-top:40px;
+    color:rgb(0 , 86, 92); 
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 32px; 
+    text-align: center;
+    background-color: rgb(242, 246, 247);
+    padding-bottom: 100px;
+}
+
+
+
+/*Referenzen/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.Referenzen_Container{
+    padding-top: 110px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(242, 246, 247);
+}
+.Referenzen_Img{
+    filter: grayscale(1) opacity(0.6);
+}
+.Referenz_Button{
+    border: 2px solid rgb(0 , 86, 92); 
+    color: rgb(0 , 86, 92);
+    width: 120px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 180px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    
+}
+
+.Referenz_Button:hover { 
+    background-color: rgb(0 , 86, 92);
+    color: white;
+  }
+*/
+
+/*Inhalt 1/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.Inhalt1_Container{
+    background-image: url("./Bilder/Inhalt1/Referenzen_Platzhalter2.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 450px;
+    background-color: rgb(242, 246, 247);
+    background-size: 3000px 2100px;
+}
+
+.Inhalt1_Überschrift{
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-weight: 900;
+}
+.Inhalt1_Unterüberschrift{
+    color: white;
+    font-size: 25px;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    letter-spacing: 0.3rem;
+    padding-bottom: 20px;
+
+}
+.Inhalt1_Überschrift_text_container{
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+    grid-template-columns: 1fr 700px 1fr;
+    padding-bottom: 100px;
+    
+}
+
+.Inhalt1_Überschrift_text{
+    color: white;
+    font-size: 17px;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+}
+#Button1{
+    margin-left: 250px;
+}
+#Button2{
+    margin-left: 250px;
+}
+.Inhalt1_Progressbar_Container{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 450px 55px 450px 1fr;
+    
+    
+}
+.Inhalt1_Progressbar_Container_Links{
+    text-align: right;
+    color: white;
+    padding-right: 40px;
+    font-size: 15px;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    
+    
+}
+.Inhalt1_Progressbar_Container_Rechts{
+    text-align: left;
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+}
+
+/*Scroll Indicator_Striche*/
+.progress-container {
+    width: 5px;
+    height: 350px;
+    background-color: rgb(89, 100, 126);
+    position: relative;
+    left: 21px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    width: 8px; 
+    z-index: 1; 
+    position: relative;
+    
+  }
+  
+  .a {background-image:linear-gradient(180deg, rgb(131,188,255) 100px, rgb(249,18,106) 200px);}
+  .b {background-image:linear-gradient(180deg, rgb(249,18,106) 100px, rgb(255, 205,57) 200px);}
+  .c {background-image:linear-gradient(180deg, rgb(255, 205,57) 100px, rgb(6, 208,168) 200px);}
+  
+  /*Scroll Indicator_Kreise*/
+  
+  .progress-container-Kreis {
+    width: 47px;
+    height: 49px;
+    background-color: rgb(89, 100, 126);
+    position: relative;
+    font-size: 40px;
+    color: white;
+    border-radius: 180px;
+    text-align: center;
+    
+    overflow: hidden;
+  }
+  .progress-bar-kreis {
+    width: 47px; 
+    height: 0%;
+    z-index: 3; 
+    position: relative;
+  }
+  
+  .aa {background-color: rgb(131,188,255) }
+  .bb {background-color: rgb(249,18,106)}
+  .cc {background-color: rgb(255, 205,57)}
+  .dd {background-color: rgb(6, 208,168)}
+  
+  .content {
+    background-color: white;
+    z-index: 5;
+    position: relative;
+  }
+  #und_ZUSAMMEN{
+    padding-top: 560px;
+}
+#Schritt4{
+padding-top:595px; 
+font-size: 23px;
+}
+
+/*Weißerinhalt 1/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Weißercontainer{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 40% 40% 1fr;
+    background-color: rgb(242, 246, 247);   
+    justify-items: right;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.Weißercontainer_Img{
+    width: 500px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+
+}
+.Weißercontent_überschrift{
+    font-size: 40px;
+    line-height: 56px;
+    color:  #0f3c46;
+    font-family:  sans-serif;
+    padding-bottom: 45px;
+}
+.Weißercontent_Text{
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    line-height: 32px;
+    color:  #0f3c46;
+    padding-bottom: 200px;
+}
+/*Weiserspruch 1/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Weiserspruch1_container{
+    background-image: url("./Bilder/WeiserSpruch/Bild1.png");
+    background-repeat: no-repeat;
+    background-color: rgb(242, 246, 247); 
+    text-align: center;
+}
+.Weiserspruch1_überschrift1{
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+    font-family:  sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+}
+.Weiserspruch1_überschrift2{
+    color: rgb(255, 255, 255);
+    font-family:  sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+.Weiserspruch1_text{
+    
+    color: rgb(255, 255, 255);
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 850px  1fr;
+    padding-bottom: 400px;
+
+}
+/*Weißerinhalt 2/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Weißercontainer2{
+    padding-top: 200px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 40% 40% 1fr;
+    background-color: rgb(242, 246, 247);   
+    justify-items: left;
+    overflow: hidden;
+}
+.Weißercontainer_Img2{
+    padding-left: 100px;
+    width: 500px;
+    padding-bottom: 300px;
+}
+.Weißercontent_überschrift2{
+    font-size: 40px;
+    line-height: 56px;
+    color:  #0f3c46;
+    font-family:  sans-serif;
+    padding-bottom: 45px;
+}
+.Weißercontent_Text2{
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    line-height: 32px;
+    color:  #0f3c46;
+    padding-bottom: 200px;
+}
+/*Weisersrspruch 2/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Weiserspruch2_container{
+    background-color: rgb(242, 246, 247);   
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 750px 1fr;
+    padding-bottom: 400px;
+}
+.Weiserspruch2_text{
+    color: rgb(255, 255, 255);
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 18px;
+    background-image: url("./Bilder/Weiserspruch2.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+/*Referenzen 2/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Referenzen2_container{
+    background-image: url("./Bilder/Referenzen2.png");
+    background-repeat: no-repeat;
+    background-color: rgb(242, 246, 247); 
+    height: 1100px; 
+    overflow: hidden;
+}
+#Referenzen2_Überschrift_container{
+    display: grid;
+    grid-template-columns: 35vw 600px;
+}
+.Referenzen2_Überschrift{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    overflow: hidden;
+}
+.Referenzen_Grid{
+    display: grid;
+    grid-template-rows: 530px;
+    grid-template-columns: 35vw 530px 530px 530px;           
+    animation-duration: 1s;
+    animation-fill-mode: both;   
+}
+.Referenzen_Firmen_contaienr{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.Referenzen_img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Referenzen_text{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+}
+.Pfeil_links{
+    position: relative;
+    top: -570px;
+    left: 50px;
+}
+.Pfeil_rechts{
+    position: relative;
+    top: -570px;
+    left: 90vw;
+}
+
+
+
+
+
+
+@keyframes moveRight1{
+    to { transform: translateX(-530px)}
+}
+@keyframes moveRight2{
+    from { transform: translateX(-530px)}
+    to { transform: translateX(-1060px)}
+}
+/*@keyframes moveRight3{
+    from { transform: translateX(-1060px)}
+    to { transform: translateX(-1590px)}
+}*/
+
+
+
+@keyframes moveLeft1{
+    from { transform: translateX(-530px)}
+    to { transform: translateX(-0px)}
+}
+@keyframes moveLeft2{
+    from { transform: translateX(-1060px)}
+    to { transform: translateX(-530px)}
+}
+/*@keyframes moveLeft3{
+    from { transform: translateX(-1590px)}
+    to { transform: translateX(-1060px)}
+}*/
+
+
+
+
+#Referenzen_Container1{
+    width: 500px;
+    height: 550px;
+    transition: height 0.3s ease-in-out, opacity 1s ease-in-out;
+    
+}
+
+#Referenzen_Container2{
+    width: 500px;
+    height: 200px;
+    opacity:0.3;
+    transition: height 0.3s ease-in-out, opacity 1s ease-in-out;
+}
+#Referenzen_Container3{
+    width: 500px;
+    height: 200px;
+    opacity:0.3;
+    transition: height 0.3s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+/*Blog/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.Blog_container{
+    text-align: center;
+    background-color: rgb(242, 246, 247); 
+    padding-top: 200px;
+}
+.Blog_Überschrift{
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    color:  #0f3c46;
+    font-family:  sans-serif;
+}
+.Blog_bildercontainer{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 4fr minmax(100px, 350px) 5% minmax(100px, 350px) 5% minmax(100px, 350px) 4fr ;
+    padding-bottom: 100px;
+}
+.Blog_Bilder_items{
+    background-color: white;
+    height: 360px;
+    border-radius: 10px ;
+    font-family:  sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: left;
+    box-shadow:1px 1px 2px rgb(160, 159, 159); 
+}
+.Blog_Bilder_Text{
+    align-items: center;
+}
+.Blog_Bilder_items:hover { 
+    box-shadow:3px 3px 6px rgb(160, 159, 159); 
+  }
+
+.Button_div{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 150px 1fr ;
+
+}
+.Blog_Button{
+    border: 2px solid rgb(0 , 86, 92); 
+    color: rgb(0 , 86, 92);
+    width: 150px;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 180px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    
+}
+
+.Blog_Button:hover { 
+    background-color: rgb(0 , 86, 92);
+    color: white;
+   
+  }
+  .platzhalter_responsiv{
+    display: none;
+}
+.SocalNetwork_Container{
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    background-color: rgb(242, 246, 247); 
+    padding-bottom: 200px;
+}
+.SocalNetwork_Iteam{
+    background-image: url("./Bilder/social-media-marketing.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.Social_Network_IMG1{
+    margin-left: 395px;
+    margin-top: 165px;
+    background-color: #e56552;
+    width: 130px;
+    height: 130px;
+    border-radius: 180px;
+    background-image: url("./Bilder/Google11.png");
+    background-size: 100%;
+    box-shadow: 8px 3px 55px 24px rgba(0,0,0,0.33);
+    position: absolute;
+}
+.Social_Network_IMG2{
+    margin-left: 330px;
+    margin-top: 650px;
+    background-color: #7e574c;
+    width: 140px;
+    height: 140px;
+    border-radius: 180px;
+    background-image: url("./Bilder/InstagramLogo.png");
+    background-size: 70% 60%;
+    background-repeat: no-repeat;
+    background-position: 22px 27px;
+    box-shadow: 8px 4px 55px 24px rgba(0,0,0,0.33);
+    position: absolute;
+}
+.Social_Network_IMG3{
+    margin-left: 197px;
+    margin-top:  265px;
+    position: absolute;
+    background-color: #3b5999;
+    width: 175px;
+    height: 175px;
+    border-radius: 180px;
+    background-image: url("./Bilder/Hyperlinks/f.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 42px 41px;
+    box-shadow: 7px 3px 48px 24px rgba(0,0,0,0.33);
+}
+
+.Social_Network_IMG1:hover{
+    box-shadow: 7px 3px 48px 40px rgba(0,0,0,0.33);
+    margin-left: 380px;
+    margin-top: 150px;
+    width: 160px;
+    height: 160px;
+}
+.Social_Network_IMG2:hover{
+    box-shadow: 7px 3px 48px 40px rgba(0,0,0,0.33);
+    width: 160px;
+    height: 160px;
+    margin-left: 320px;
+    margin-top: 640px;
+    background-position: 25px 30px;
+}
+.Social_Network_IMG3:hover{
+    box-shadow: 7px 3px 48px 40px rgba(0,0,0,0.33);
+    width: 190px;
+    height: 190px;
+    margin-left: 190px;
+    margin-top:  255px;
+    background-position: 45px 50px;
+}
+
+/*Impressum/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.Impressum{
+    background-color: rgb(242, 246, 247); 
+    background-image: url(  "./Bilder/Inhalt1/Impressum_Hintergrunf.png");
+    background-repeat: no-repeat;
+    
+}
+.Alex_Grid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 900px 1fr ;
+}
+.Impressum_ALEX{
+    padding-top: 30px;
+    width: 900px;
+    height: 350px;
+    background-color: white; 
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 600px 300px;
+}
+.Impressum_Alex_Text{
+    padding-left: 40px;
+    color:rgb(0 , 86, 92); 
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+.Impressum_Kontaktbutton{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(249, 18, 106);
+    color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 180px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 120px 60px; 
+}
+#Impressum_Kontaktbutton:hover{
+   background-color: rgb(206, 19, 90);
+}
+#Impressum_Kontaktbutton2:link{color:white;}
+#Impressum_Kontaktbutton2:visited{color: white;}
+#Impressum_Kontaktbutton2:link{color: white;}
+#Impressum_Kontaktbutton2:active{color: white;}
+#Impressum_Kontaktbutton2, .Impressum_Text2{
+    text-decoration:none;
+}
+.Impressum_Text2:hover{
+    color: rgb(105, 105, 105);
+}
+.Impressum_content{
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 300px 1fr 300px 1fr 300px 2fr ;
+}
+.Impressum_überschrift{
+    color: white;
+    font-family:  sans-serif;
+    padding-bottom: 30px;
+}
+.Impressum_Text{
+    color: white;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 16px;
+   
+}
+.Hyperlinks{
+    display: grid;
+    grid-template-rows: auto 50px;
+    grid-template-columns: 40px 40px 40px;
+}
+.Strich{
+    font-size: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    grid-column-start: 2;
+    grid-column-end:7;
+}
+.Impressum_platzhalter_zeigen{
+    display: none;
+}
+.Impressum_platzhalter_zeigen2{
+    display: none;
+}
+.WebdesignI{
+    padding-bottom:90px;
+} 
+  /*MediaQ******************************************************************************************************************************************************************************************************************************************
+  /************************************************************************************************************************************************************************************************************************************************************
+  /************************************************************************************************************************************************************************************************************************************************************/
+ 
+  @media screen and (max-height: 800px) { /*unter 1300*/
+    .container_Startbildschirm{
+        grid-template-rows: 73vh;
+        background-size: 100vw 73vh;
+    }
+}
+
+/*Breite/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media screen and (min-width: 2100px) { /*über 2100*/
+
+    /*startbildschirm*/
+    .container_Startbildschirm{
+    background-size: 2600px;
+    }
+    .Inhalt1_Container{
+        background-size: 3000px 2000px;
+    }
+}
+@media screen and (min-width: 1600px) { /*über 1600*/
+.Impressum{
+    background-size: 2500px 1200px;
+}
+}
+@media screen and (min-width: 1150px) { /*über 1150*/
+    .Mehr_dropdown2{
+        display: none;     
+    }
+    .Mehr_dropdown1{
+        display: none;     
+    }
+}
+@media screen and (max-width: 1300px) { /*unter 1300*/
+.container_Startbildschirm{
+    background-size: 1600px 700px;
+}
+.Pfeil_rechts{
+   left: 87vw;
+}
+#Referenzen2_Überschrift_container{
+    grid-template-columns: 28vw 600px;
+}
+.Referenzen_Grid{
+    grid-template-columns: 28vw 530px 530px 530px;           
+}
+}
+@media screen and (max-width: 1150px) { /*unter 1150*/
+    #Leistung, #Referenzen, #Über_uns, #Blog{
+        display: none;
+    }
+    #mehr{
+        display: block;
+        grid-column-start: 7;
+    }
+    #Kontakt{
+        grid-column-start: 6;
+    }
+    #Referenzen2_Überschrift_container{
+        grid-template-columns: 24vw 600px;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 24vw 530px 530px 530px;           
+    }
+}
+@media screen and (max-width: 1100px) { /* unter 1100*/
+    .Weißercontainer_Img{
+        width: 400px;
+    }
+    .Weißercontainer_Img2{
+        width: 400px;
+    }
+    .Pfeil_rechts{
+        left: 83vw;
+     }
+    
+}
+
+@media screen and (max-width: 1040px) { /* unter 1040*/
+    .Inhalt1_Container{
+        background-size: 3000px 2250px;
+    }
+    .Inhalt1_Progressbar_Container{
+        grid-template-columns: 1fr 55px 600px 1fr;
+    }
+    #scroll_indicator{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .Inhalt1_Progressbar_Container_Links{
+        text-align: left;
+        color: white;
+        padding-left: 40px;
+        font-size: 15px;
+        font-family:  "Poppins", 'Nunito', sans-serif;
+        grid-column-start: 3;
+        grid-row-start: 1;
+        margin-left:0;
+    }
+    .Inhalt1_Progressbar_Container_Rechts{
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    #und_ZUSAMMEN{
+        margin-top: 200px;
+    }
+    #Schritt4{
+        margin-top: 180px;
+    }
+    .Menü_Kontakt_Button{
+        margin-left:0;
+    }
+    #Button1{
+        margin-left: 0;
+    }
+    #Button2{
+        margin-left: 0;
+    }
+    #Schritt4{
+        padding-top:450px; 
+        font-size: 23px;
+    }
+    #und_ZUSAMMEN{
+        padding-top: 390px;
+    }
+
+
+    .Alex_Grid{
+        grid-template-columns: 1fr 700px 1fr ;
+    }
+    .Impressum_ALEX{
+        width: 700px;
+        height: 450px;
+        grid-template-columns: 400px 300px;
+    }
+    .Impressum_content{
+        grid-template-columns: 2fr 200px 1fr 220px 1fr 200px 2fr ;
+    }
+    .Impressum_überschrift{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .SocalNetwork_Container{ grid-template-columns: 1fr 800px 1fr;}
+    .SocalNetwork_Iteam{background-size: 800px;}
+    .Social_Network_IMG1{
+        margin-left: 320px;
+        margin-top: 135px;
+        width: 100px;
+        height: 100px;
+    }
+    .Social_Network_IMG2{
+        margin-left: 264px;
+        margin-top: 518px;
+        width: 120px;
+        height: 120px;
+        background-position: 18px 24px;
+    }
+    .Social_Network_IMG3{
+        margin-left: 150px;
+        margin-top:  210px;
+        width: 150px;
+        height: 150px;
+        background-position: 38px 35px;
+    }
+    .Social_Network_IMG1:hover{
+        margin-left: 310px;
+        margin-top: 125px;
+        width: 120px;
+        height: 120px;
+    }
+    .Social_Network_IMG2:hover{
+        margin-left: 254px;
+        margin-top: 508px;
+        width: 140px;
+        height: 140px;
+        background-position: 22px 28px;
+    }
+    .Social_Network_IMG3:hover{
+        margin-left: 140px;
+        margin-top:  200px;
+        width: 170px;
+        height: 170px;
+        background-position: 43px 45px;
+    }
+}
+
+@media screen and (max-width: 950px) { /* unter 950*/
+#Referenzen2_Überschrift_container{
+    grid-template-columns: 20vw 600px;
+}
+.Referenzen_Grid{
+    grid-template-columns: 20vw 530px 530px 530px;           
+}
+}
+
+@media screen and (max-width: 900px) { /* unter 900*/
+.Weiserspruch1_text{
+    grid-template-columns: 1fr 90%  1fr;
+}
+.Weißercontainer_Img{
+    width: 350px;
+    padding-right: 20px;
+    padding-bottom: 300px;
+}
+.Weißercontainer_Img2{
+    padding-left: 20px;
+    width: 350px;
+    padding-bottom: 300px;
+    
+}
+@media screen and (max-width: 820px) { /* unter 820*/
+.SocalNetwork_Container{
+    grid-template-columns: 1fr 90% 1fr;
+}
+#Referenzen2_Überschrift_container{
+    grid-template-columns: 17vw 600px;
+}
+.Referenzen_Grid{
+    grid-template-columns: 17vw 530px 530px 530px;           
+}
+}
+@media screen and (max-width: 800px) { /* unter 800*/
+.Weiserspruch2_container{
+    grid-template-columns: 1fr 90% 1fr;
+}
+.Blog_bildercontainer{
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 350px 2fr;
+    padding-bottom: 100px;
+
+}
+.Blog_Bilder_items{
+    margin-bottom: 100px;
+}
+.platzhalter_responsiv{
+    display: block;
+}
+.Alex_Grid{
+    grid-template-columns: 1fr 530px 1fr ;
+}
+.Impressum_ALEX{
+    width: 520px;
+    height: 550px;
+    grid-template-columns: 300px 230px;
+}
+
+
+
+
+
+.SocalNetwork_Container{ grid-template-columns: 1fr 600px 1fr;}
+.SocalNetwork_Iteam{background-size: 600px;}
+.Social_Network_IMG1{
+    margin-left: 235px;
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+}
+.Social_Network_IMG2{
+    margin-left: 200px;
+    margin-top: 385px;
+    width: 100px;
+    height: 100px;
+    background-position: 15px 22px;
+}
+.Social_Network_IMG3{
+    margin-left: 115px;
+    margin-top:  155px;
+    width: 110px;
+    height: 110px;
+    background-position: 28px 30px;
+}
+.Social_Network_IMG1:hover{
+    margin-left: 220px;
+    margin-top: 90px;
+    width: 100px;
+    height: 100px;
+}
+.Social_Network_IMG2:hover{
+    margin-left: 190px;
+    margin-top: 375px;
+    width: 120px;
+    height: 120px;
+    background-position: 18px 25px;
+}
+.Social_Network_IMG3:hover{
+    margin-left: 105px;
+    margin-top:  140px;
+    width: 150px;
+    height: 150px;
+    background-position: 37px 37px;
+}
+
+
+
+.Pfeil_rechts{
+    left: 80vw;
+ }
+}
+@media screen and (max-width: 750px) { /* unter 750*/
+    .Inhalt1_Überschrift_text_container{
+        grid-template-columns: 5% 90% 5%;
+    }
+    .Referenzen_Container{
+        display: none;
+    }
+    .Startbildschirm_Unterüberschrift_Inhalt{
+        padding-bottom: 180px;
+    }
+    .Inhalt1_Überschrift_text_container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .Inhalt1_Progressbar_Container{
+        grid-template-columns: 1fr 55px 400px 1fr;
+    }
+    #und_ZUSAMMEN{
+        margin-top: 160px;
+    }
+    #Schritt4{
+        margin-top: 110px;
+    }
+    .Inhalt1_Container{
+        background-size: 1600px 2200px;
+    }
+    
+
+    .Weißercontainer{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 10% 80% 10%;
+        background-color: rgb(242, 246, 247);   
+        justify-items: center;
+    }
+    .Weißercontainer_Img{
+        padding-top: 0;
+        width: 400px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-bottom: 150px;
+    }
+    #Weißerinhalt_Text{
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    .Weißercontainer2{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 10% 80% 10%;
+        background-color: rgb(242, 246, 247);   
+        justify-items: center;
+    }
+    .Weißercontainer_Img2{
+        padding-top: 0;
+        width: 400px;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        padding-bottom: 150px;
+        padding-left: 0;
+    }
+    #Weißerinhalt_Text2{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .Inhalt1_Container{
+        padding-bottom: 200px;
+    }
+    .Weiserspruch1_text{
+        padding-bottom: 200px;
+    
+    }
+
+
+
+#Referenzen2_Überschrift_container{
+    grid-template-columns: 1fr 375px 1fr;
+    padding-left: 0px;
+}
+#Referenzen2_Überschriftt{
+    padding-left: 0px; 
+}
+.Referenzen_Grid{
+    grid-template-columns: 27vw 330px 330px 330px;           
+}
+@keyframes moveRight1{
+    to { transform: translateX(-330px)}
+}
+@keyframes moveRight2{
+    from { transform: translateX(-330px)}
+    to { transform: translateX(-660px)}
+}
+/*@keyframes moveRight3{
+    from { transform: translateX(-660px)}
+    to { transform: translateX(-990px)}
+}*/
+@keyframes moveLeft1{
+    from { transform: translateX(-330px)}
+    to { transform: translateX(-0px)}
+}
+@keyframes moveLeft2{
+    from { transform: translateX(-660px)}
+    to { transform: translateX(-330px)}
+}
+/*@keyframes moveLeft3{
+    from { transform: translateX(-990x)}
+    to { transform: translateX(-660px)}
+}*/
+#Referenzen_Container1{
+    width: 300px;
+}
+#Referenzen_Container2{
+    width: 300px;
+}
+#Referenzen_Container3{
+    width: 300px;
+}
+
+}
+@media screen and (max-width: 659px) { /* unter 659*/
+    .Weiserspruch1_überschrift1{
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 650px) { /* unter 650*/
+.Impressum_content{
+    grid-template-columns: 2fr 200px 1fr 220px 1fr 120px 2fr ;
+}
+.Mehr_dropdown2{
+   width: 350px;
+}
+.Referenzen_Grid{
+    grid-template-columns: 25vw 330px 330px 330px;           
+}
+}
+@media screen and (max-width: 620px) { /* unter 600px*/
+.SocalNetwork_Container{
+    grid-template-columns: 1fr 90vw 1fr;    
+}
+.Referenzen_Grid{
+    grid-template-columns: 24vw 330px 330px 330px;           
+}
+}
+.Pfeil_rechts{
+    left: 75vw;
+ }
+}
+
+
+@media screen and (max-width: 560px) { /* unter 560*/
+    .Impressum_content{
+        padding-top: 70px;
+        display: grid;
+        grid-template-columns: 1fr 150px 1fr 200px 1fr;
+        grid-template-rows: auto;
+        
+    }
+.Impressum_platzhalter_zeigen{
+    display: unset;
+}
+.Strich{
+    grid-column-start: 2;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 3
+}
+.Impressum{
+    background-color: rgb(242, 246, 247); 
+    background-size: 600px 1300px;;
+}
+}
+
+
+@media screen and (max-width: 550px) { /* unter 550*/
+    .container_Startbildschirm{
+        font-size: 5vw;
+    }
+    .Inhalt1_Container{
+        background-image: url("./Bilder/Inhalt1/Referenzen_Platzhalter3.png");
+    }
+    #BIld{
+        display: none;
+    }
+    .Alex_Grid{
+        grid-template-columns: 1fr 90% 1fr ;
+    }
+    .Impressum_ALEX{
+        width: 100%;
+        height: 550px;
+        grid-template-columns: 100% ;
+    }
+
+    .dropdown_button{
+        display: flex;
+        margin-left: 60px;
+        margin-top: 40px;
+        font-family: sans-serif;
+    }
+    #Kontakt{
+        display: none;
+    }
+    .Mehr_dropdown2{
+        height: 450px;
+    }
+    .platzhalter_Menü{
+        display: unset;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 23vw 330px 330px 330px;           
+    }
+}
+
+@media screen and (max-width: 500px) { /* unter 500*/
+    .Inhalt1_Progressbar_Container{
+        grid-template-columns: 0.2fr 55px 280px 0.2fr;
+    }
+    #und_ZUSAMMEN{
+        margin-top: 40px;
+    }
+    #Schritt4{
+        margin-top: 20px;
+        
+    }
+    .Inhalt1_Container{
+        background-size: 1500px 2400px;
+    }
+    .Weiserspruch2_container{
+        grid-template-columns: 100%;
+    }
+    .Weiserspruch2_text{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 20vw 330px 330px 330px;           
+    }
+    .Referenzen2_Überschrift{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .Pfeil_links{
+        top: -620px;
+        left: 30vw;
+    }
+    .Pfeil_rechts{
+        left: 50vw;
+        top: -620px;
+}
+
+}
+@media screen and (max-width: 450px) { /* unter 450px*/
+    .Weißercontainer_Img{
+        padding-right: 0;
+        padding-left: 50px;
+    }
+    .Weißercontainer_Img2{
+        padding-right: 50px;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 16vw 330px 330px 330px;           
+    }
+}
+
+
+
+@media screen and (max-width: 430px) { /* unter 430*/
+    .Impressum_content{
+        grid-template-columns: 40px 150px ;
+        grid-template-rows: auto auto 60px auto;
+    }
+.Impressum_platzhalter_zeigen2{
+    display: unset;
+}
+.Strich{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.Impressum{
+    background-color: rgb(242, 246, 247); 
+    background-size: 600px 2000px;;
+}
+.WebdesignI{
+    padding-bottom:20px;
+} 
+}
+
+
+@media screen and (max-width: 420px) { /* unter 420px*/
+    .Blog_container, .SocalNetwork_Container{
+        display: none;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 11vw 330px 330px 330px;           
+    }
+    .Pfeil_links{
+        top: -620px;
+        left: 25vw;
+    }
+}
+@media screen and (max-width: 380px) { /* unter 380px*/
+    .SocalNetwork_Iteam{
+        left: -300px;
+    }
+    .Inhalt1_Container{
+        background-size: 2000px 2500px;
+    }
+    .Referenzen_Grid{
+        grid-template-columns: 8vw 330px 330px 330px;           
+    }
+}
+@media screen and (max-width: 365px) { /* unter 365*/
+    .Weiserspruch1_überschrift1{
+        padding-top: 80px;
+    }
+}
+@media screen and (max-width: 360px) { /* unter 360px*/
+    .Referenzen_Grid{
+        grid-template-columns: 6vw 330px 330px 330px;           
+    }
+}
+@media screen and (max-width: 350px) { /* unter 350px*/
+.Mehr_dropdown2{
+    width: 100%;
+}
+.dropdown_überschrift{
+    padding-left: 30px;
+}
+.dropdown_text{
+    padding-left: 30px;
+}
+#dropdown_strich{
+    padding-left: 30px;
+}
+.dropdown_button{
+    margin-left: 30px;
+}
+}
+@media screen and (max-width: 330px) { /* unter 330*/
+    .Inhalt1_Container{
+        background-size: 1500px 2700px;
+    }
+}

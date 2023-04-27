@@ -1,0 +1,1 @@
+An der Uni soll man ein Modul belegen das heißt Softwarepraktikum. Wir haben dort gemeinsam als Gruppe mit Android Studio eine Campusapp entwickelt.

@@ -1,0 +1,274 @@
+/*///Start//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.Start_Contanier{
+    display: grid;
+    grid-template-columns:  1fr 950px 1fr;
+    text-align: center;
+    background-color: rgb(242, 246, 247);
+}
+.Start_Überschrift{
+    padding-top: 40vh;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 56px;
+    color:  #0f3c46;
+    font-family:  sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    padding-bottom: 50px;
+}
+.Start_UnterÜberschrift{
+    font-size: 32px;
+    color:  rgb(33, 37, 41);
+    font-family:  sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.Start_Text{
+    font-size: 18px;
+    color:  rgb(33, 37, 41);
+    font-family:  sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+#Strich_überuns{
+    padding-top: 50px; 
+    padding-bottom: 200px;
+}
+/*///Unsere Werte//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.UnsereWerte_Container2{
+    display: grid;
+    grid-template-columns:  1fr 950px 1fr;
+    text-align: center;
+    background-color: rgb(242, 246, 247);
+}
+.UnsereWerte_Text{
+    font-size: 32px;
+    color: rgb(40, 46, 62);
+    font-family:  sans-serif;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+.UnsereWerte_Container{
+    display: grid;
+    grid-template-columns: 450px 50px 450px;
+    grid-template-rows:  300px 80px 300px; 
+    padding-bottom: 200px;
+}
+.UnsereWerte_Iteam{
+    background-color: white;
+    border-radius: 8px;
+}
+.UnsereWerte_Iteam_Container{
+    display: grid;
+    grid-template-columns: 1fr 116px;
+    text-align: left;
+}
+.UnsereWerte_Iteam_IMG{
+    padding-top: 70px;
+}
+.UnsereWerte_Iteam_Text{
+    padding: 40px 0 0 30px;
+    color: #282e3e;
+    font-family: sans-serif;
+}
+.UnsereWerte_Iteam_Text_Überschrift{
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+.UnsereWerte_Iteam_Text_UnterÜberschrift{
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    line-height: 32px;
+}
+.platzhalter1{
+    display: none;
+}
+/*Die Gründer/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.GrunderBanner_container{
+    background-image: url("../Bilder/ÜberUns/Gründer.PNG");
+    background-repeat: no-repeat;
+    background-color: rgb(242, 246, 247); 
+    text-align: center;
+}
+.GrunderBanner_überschrift1{
+    padding-top: 330px;
+    color: rgb(255, 255, 255);
+    font-family:  sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    padding-bottom: 450px;
+}
+.Grunder_NurText_Contanier{
+    display: grid;
+    grid-template-columns:  1fr 750px 1fr;
+    text-align: center;
+    background-color: rgb(242, 246, 247);
+    padding:  0 0 ;
+}
+.Grunder_NurText_Text{
+    font-size: 16px;
+    color:  rgb(33, 37, 41);
+    font-family:  sans-serif;
+    font-weight: 100;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Grunder_Gesichter_Container{
+    display: grid;
+    grid-template-columns:  1fr 550px 30px 550px 1fr;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: rgb(242, 246, 247);
+}
+.person1{
+    margin-top: 130px;
+    background: white;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 48px -19px rgba(0,0,0,0.33);
+}
+.person2{
+    background: white;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 48px -19px rgba(0,0,0,0.33);
+}
+.person1:hover{box-shadow: 6px 2px 48px -11px rgba(0,0,0,0.37);}
+.person2:hover{box-shadow: 6px 2px 48px -11px rgba(0,0,0,0.37);}
+
+.Person1_IMG{
+    position: relative;
+    top: -100px;
+}
+.Person2_IMG{
+    position: relative;
+    top: -100px;
+}
+.person_Überschrift{
+    color: #282e3e;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    top: -60px;
+}
+.person_UnterÜberschrift{
+    position: relative;
+    top: -50px;
+    color: #282e3e;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.person_Text{
+    color: #282e3e;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    top: -30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: left;
+    line-height: 30px;
+
+}
+.Gründer_Kontakt_Button{
+    color: white;
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+.plathalterGrunder2{
+    display: none;
+}
+  /*MediaQ******************************************************************************************************************************************************************************************************************************************
+  /************************************************************************************************************************************************************************************************************************************************************
+  /************************************************************************************************************************************************************************************************************************************************************/
+ 
+@media screen and (min-width: 1600px) { /*über 2100*/
+    .GrunderBanner_container{
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 1050px) { /*unter 1050px*/
+    .Start_Contanier{grid-template-columns:  1fr 80% 1fr;}
+    #Strich_überuns{padding-bottom: 100px;}
+    .UnsereWerte_Container2{
+        grid-template-columns:  1fr 450px 1fr;
+    }
+    .UnsereWerte_Container{
+        display: grid;
+        grid-template-columns: 450px  ;
+        grid-template-rows:  300px 80px 300px 80px 300px 80px 300px; 
+        padding-bottom: 200px;
+    }
+    .platzhalter2{display: none;}
+}
+
+@media screen and (max-width: 1300px) { /*unter 1300px*/
+.GrunderBanner_container{
+    background-position-x: -200px;
+}    .Grunder_Gesichter_Container{
+    grid-template-columns:  1fr 450px 30px 450px 1fr;   
+}
+.person_Text{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.Gründer_Kontakt_Button{
+    margin-left: 135px;
+}
+.person1{
+    margin-top: 130px;
+}
+}
+@media screen and (max-width: 1000px) { /*unter 1000px*/
+.GrunderBanner_container{
+    background-position-x: -400px;
+    }
+    .Grunder_Gesichter_Container{
+        grid-template-columns:  1fr 550px 30px 550px 1fr;   
+    }
+    .person_Text{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .Gründer_Kontakt_Button{
+        margin-left: 190px;
+    }
+    .Grunder_Gesichter_Container{
+        grid-template-columns:  1fr 550px 1fr;
+    }
+    .plathalterGrunder1{
+        display: none;
+    }
+    .plathalterGrunder2{
+        display: unset;
+    }
+    .person1{
+        margin-top: 0px;
+    }
+    .person2{
+        margin-top: 230px;
+    }
+}
+@media screen and (max-width: 600px) { /*unter 600px*/
+.GrunderBanner_container{
+    background-position-x: -550px;
+    }
+
+
+}

@@ -1,0 +1,143 @@
+.Text_container{
+    padding-top: 150px;
+    background-color: rgb(242, 246, 247);
+    color:rgb(29, 29, 29); 
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+    line-height: 30px; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 60vw 1fr;
+    font-weight: 600;
+    padding-bottom: 150px;
+}
+.überschrift{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:   sans-serif;
+    padding-bottom: 70px;
+}
+
+.Input_container{
+    height: 600px;
+    background-color: rgb(242, 246, 247);
+    display: grid;
+    grid-template-rows: repeat(40, 1fr);
+    grid-template-columns: repeat(40, 1fr);;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+
+}
+#Firma{
+    width: 500px;
+    height: 50px;
+    grid-row-start:4;
+    grid-row-end: 8;
+    grid-column-start: 8;
+    grid-column-end: 23;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+}
+#label_Firma{
+    grid-row-start:2;
+    grid-row-end: 3;
+    grid-column-start: 8;
+    grid-column-end: 23;
+}
+
+#Name{
+    width: 500px;
+    height: 50px;
+    grid-row-start:4;
+    grid-row-end: 8;
+    grid-column-start: 21;
+    grid-column-end: 40;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+}
+#label_Name{
+    grid-row-start:2;
+    grid-row-end: 3;
+    grid-column-start: 21;
+    grid-column-end: 40;
+}
+
+#Mail{
+    width: 500px;
+    height: 50px;
+    grid-row-start:11;
+    grid-row-end:15;
+    grid-column-start: 8;
+    grid-column-end: 23;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+}
+#label_Mail{
+    grid-row-start:9;
+    grid-row-end: 11;
+    grid-column-start: 8;
+    grid-column-end: 23;
+}
+
+#Telefon{
+    width: 500px;
+    height: 50px;
+    grid-row-start:11;
+    grid-row-end:15;
+    grid-column-start: 21;
+    grid-column-end: 40;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+}
+#label_Telefon{
+    grid-row-start:9;
+    grid-row-end: 11;
+    grid-column-start: 21;
+    grid-column-end: 40;
+}
+
+#Nachricht{
+    width: 1040px;
+    resize: none;
+    grid-row-start:18;
+    grid-row-end: 40;
+    grid-column-start: 8;
+    grid-column-end: 40;
+    font-family:  "Poppins", 'Nunito', sans-serif;
+    font-size: 19px;
+}
+#label_Nachricht{
+    grid-row-start: 16;
+    grid-row-end: 17;
+    grid-column-start: 8;
+    grid-column-end: 40;
+}
+
+#Plichtfeld{
+    grid-row-start: 41;
+    grid-row-end: 41;
+    grid-column-start: 8;
+    grid-column-end: 40;
+}
+#form{
+    background-color: rgb(242, 246, 247);
+}
+#submit_container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+#update_button{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(249, 18, 106);
+    color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 180px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 120px 60px;
+    font-size: 15px;
+    font-weight: 600;
+}

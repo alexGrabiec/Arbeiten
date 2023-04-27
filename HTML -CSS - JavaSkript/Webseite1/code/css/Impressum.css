@@ -1,0 +1,43 @@
+/*///Impressum//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Impressum_Container{
+    padding-top: 200px;
+    background-color: rgb(242, 246, 247);
+    display: grid;
+    grid-template-columns: 1fr 900px 1fr;
+}
+.Impressum_Impressum{
+    font-family: sans-serif;
+    color: rgb(40, 46, 62);
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.Impressum_Überschrift{
+    font-family: sans-serif;
+    color: rgb(40, 46, 62);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+.Impressum_Text3{
+    color:rgb(33, 37, 41);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    
+}
+
+
+
+@media screen and (max-width: 1000px) { /*unter 1300px*/
+    .Impressum_Container{
+        grid-template-columns: 1fr 80% 1fr;
+    }
+}
+@media screen and (max-width: 440px) { /*unter 1300px*/
+    .Impressum_Impressum{
+        font-size: 45px;
+    }
+}

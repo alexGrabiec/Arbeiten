@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Press Rewind</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="./css/Kontakt.css" type="text/css" rel="stylesheet">
+        <link type="text/JavaScript" rel="Stylesheet" href="script.js">
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
+    </head>
+    <body>
+<!--Menü-->
+<div class="container_Menü">
+        
+        <a href="./index.html"><img src="./Bilder/Logo/Press Rewind Logo2.png"  height="70px" /></a>
+        <p></p>  <!--Platzhalter---->  
+        <a id="Leistung" href="./Leistung.html"><p >Leistungen</p></a>
+        <a id="Referenzen" href="./Referenzen.html"><p style="padding-left: 10px;">Referenzen</p></a>
+        <a id="Über_uns" href="./Über uns.html"><p >Über uns</p></a>
+        <div id="Kontakt" class="Menü_Kontakt_Button" ><a href="./WebseiteGererieren/WebseiteGenerieren.html" id="Kontakt2"><p > Webseite generieren</p></a></div>
+        <p class="platzhalter_Menü"></p>
+        <p class="platzhalter_Menü"></p>
+        <p class="platzhalter_Menü"></p>
+        <img onclick="MenüButton()" src="./Bilder/Mehr.png" width="50px" id="mehr">
+    </div>
+    <div class="Mehr_dropdown1">
+        <div class="Mehr_dropdown2" id="Mehr_dropdown2">
+            <div id="#dropdown_Überschrift_Grid" style="display: grid; grid-template-columns: 85% 10% 20px;">
+                <h3 class="dropdown_überschrift">Leistungen </h3>
+                <div id="Close1" onclick="MenüButton2()"><p id="Close2">X</p></div>
+            </div>
+            <div id="dropdown_strich" class="Strich" >
+                <img src="./Bilder/Hyperlinks/Strich2.png" id="strich_Impressum" width="100%" height="1px">
+            </div>
+            <a id="xXX" href="./Leistung.html"><p class="dropdown_text">Leistung</p> </a>
+            <a id="xXX" href="./Referenzen.html"><p class="dropdown_text">Referenzen</p></a>
+            <a id="xXX" href="./Über uns.html"><p class="dropdown_text">Über uns</p></a>
+            <div id="" class="Menü_Kontakt_Button dropdown_button" ><a href="./WebseiteGererieren/WebseiteGenerieren.html" id="Kontakt2"><p > Webseite generieren</p></a></div>
+            
+        </div>
+    </div>
+<!--Content-->
+
+    <div class="Text_container">
+        <p></p> <!--Platzhalter-->
+        <div >
+            <p class="überschrift">Kontakt & Anfragen </p>
+            <p>Sie sind interessiert daran, eine unverbindliche Termin zu erhalten? Schildern Sie uns über das Kontaktformular Ihren Status Quo, erste Zielvorstellungen und weitere Details zu Ihrem Unternehmen. Wir freuen uns auf Ihren Input und melden uns innerhalb von 24 Stunden bei Ihnen schriftlich zur Abstimmung eines persönlichen oder telefonischen Kennenlernens.</p>
+        </div>
+    </div>
+
+    <form method="post" action="./SMTP/code.php" id="form">
+    <div class="Input_container">
+        <label for="Firma" id="label_Firma">Firma*</label>
+        <input type="text" id="Firma" name="Firma">
+
+        <label for="Name" id="label_Name">Name*</label>
+        <input type="text" id="Name" name="Name" >
+
+        <label for="Mail" id="label_Mail">E-Mail*</label>
+        <input type="text" id="Mail" name="Mail">
+
+        <label for="Telefon" id="label_Telefon">Telefon</label>
+        <input name="Telefon" type="text" id="Telefon" name="Telefon" >
+
+        <label for="Nachricht" id="label_Nachricht">Ihre Nachricht</label>
+        <textarea  id="Nachricht" name="Nachricht" ></textarea>
+
+        <p id="Plichtfeld">*Pflichtfeld</p>
+    </div>
+    <div id="submit_container">
+        <input  name="submit_button" type="submit"  value=" Senden "  id="update_button"  class="update_button" />
+    </div>
+    </form>
+
+    <p style="height: 200px; background-color: rgb(242, 246, 247);"><p> <!--Abstandhalter-->
+<!--Impressum-->
+<div class="Impressum">
+    <div class="Alex_Grid">
+        <p></p> <!--Platzhalter-->
+        <div class="Impressum_ALEX">
+            <div class="Impressum_Alex_Text">
+                <h1 class="Weißercontent_überschrift2">Bist du bereit loszulegen?</h1>
+                <p style="padding-bottom:50px;">Bringe dein Marketing auf ein neues Level. Fülle unser Formular aus, damit wir uns anschauen können, wie wir Ihre Ziele erreichen.</p>
+                <div class="Impressum_Kontaktbutton" id="Impressum_Kontaktbutton">
+                    <a id="Impressum_Kontaktbutton2" href="./WebseiteGererieren/WebseiteGenerieren.html"><p  style="padding-top:0px">Webseite generieren</p></a>
+                    <img src="./Bilder/Kontaktbutton_pfeil.png" width="50px" height="50px" class="pfeil">
+                </div>
+            </div>
+            <img src="./Bilder/ALEX.png" id="BIld" width="200px">
+        </div>
+    </div>
+    <div class="Impressum_content">
+        <p class=""></p> <!--Platzhalter-->
+        <div>
+            <h1 class="Impressum_überschrift">Leistung</h1>
+            <a class="Impressum_Text2" href="./Leistung.html"><p class="Impressum_Text Impressum_Text2 WebdesignI" >Webdesign</p></a>
+
+            <h1 class="Impressum_überschrift">Social Media</h1>
+            <div class="Hyperlinks">
+                <a href="https://www.facebook.com/alex.grabiec.33"><img src="./Bilder/Hyperlinks/f.png" width="20px"></a>
+                <a href="./Kontakt.html"><img src="./Bilder/Hyperlinks/g+.png" width="30px" height="25px"></a>
+                <a href="https://www.instagram.com/pressrewind_de/?hl=de"><img src="./Bilder/Hyperlinks/InstagramLogo.png" width="25px" height="20px"></a>
+            </div>
+        </div>
+        <p class=""></p> <!--Platzhalter-->
+        <div>
+            <h1 class="Impressum_überschrift">Adresse</h1>
+            <p class="Impressum_Text">PressRewind</p>
+            <p class="Impressum_Text">Wangershäuserstraße 15 </p>
+            <p class="Impressum_Text">35066 Frankenberg</p>
+            <p class="Impressum_Text" style="padding-bottom:20px;">Deutschland</p>
+
+            <p class="Impressum_Text"><span style="font-weight:600;">Tel.:</span> +49 15752057066</p>
+            <p class="Impressum_Text"><span style="font-weight:600;">E-Mail:</span> pressrewind.fkb@gmail.com</p>
+            <p class="Impressum_Text"><span style="font-weight:600;">Öffnungszeiten:</span>  Immer</p>
+        </div>
+
+        <p class="Impressum_platzhalter_zeigen"></p> <!--Platzhalter-->
+        <p></p> <!--Platzhalter-->
+        <p class="Impressum_platzhalter_zeigen2"></p> <!--Platzhalter-->
+        
+        <div>
+            <h1 class="Impressum_überschrift">Rechtliches</h1>
+            <a class="Impressum_Text2" href="./Impressum.html"><p class="Impressum_Text Impressum_Text2">Impressum</p></a>
+            <a class="Impressum_Text2" href="./Datenschutz.html"><p class="Impressum_Text Impressum_Text2">Datenschutz</p></a>
+        </div>
+        <p></p> <!--Platzhalter-->
+        
+        <div class="Strich">
+            <img src="./Bilder/Hyperlinks/Strich.png" id="strich_Impressum" width="100%" height="1px">
+            <p class="Impressum_Text" style="font-size: 12px; padding-top: 30px">© Press Rewind</p>
+        </div>
+    </div>
+
+</body>
+</html>

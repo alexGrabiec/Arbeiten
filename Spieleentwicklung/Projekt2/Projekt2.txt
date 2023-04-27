@@ -1,0 +1,5 @@
+Da ich viel Erfahrung in der Spieleentwicklung gesammelt habe, wollte ich unbedingt ein zweites Spiel entwickel und dabei die Fehler, die ich beim ersten Spiel gemacht haben zu verbessern. Leider habe ich den aufwand falsch eingeschätzt und das Spiel ist immer noch in der Entwicklung. Nur die Beta ist fertig und wird bald auf Steam veröffentlicht.
+Das Spiel heißt Ready2Raid und soll auf Vr Brillen laufen.
+
+Ich habe also Erfahrung in Bereichen wie Sound, Animation, Modellieren und texturierten von 3D Objekten mit Blender und natürlich im Programmieren mit JavaScript. Die größte Herausforderung bei der Entwicklung war ein Waffensystem für den Spieler zu programmieren, dass in einer Vr Umgebung funktioniert und sich realistisch anfühlt.
+
