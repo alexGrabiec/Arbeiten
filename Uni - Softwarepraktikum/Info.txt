@@ -1,3 +1,1 @@
-An der Uni soll man ein Modul belegen das heißt Softwarepraktikum. Wir haben dort gemeinsam als Gruppe mit Android Studio eine Campusapp entwickelt.
-
-https://github.com/GrowThinky/Uni-Marburg-Android-App
+Im Rahmen meines Studiums absolvierte ich erfolgreich das Modul 'Softwarepraktikum', in dem wir als Teil eines Teams eine Campus-App mit Android Studio entwickelten. Dieses Projekt, durchgeführt in Kooperation mit meinen Kommilitonen, zielte darauf ab, eine benutzerfreundliche Anwendung zu schaffen, die Studierenden der Universität Marburg wichtige Informationen und Ressourcen bietet. Unser gemeinsames Endprodukt ist auf GitHub unter https://github.com/GrowThinky/Uni-Marburg-Android-App einsehbar
